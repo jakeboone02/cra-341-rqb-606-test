@@ -1,5 +1,5 @@
 {
-  "name": "cra-341-test",
+  "name": "cra-341-rqb-606-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,11 +12,13 @@
     "react-scripts": "3.4.1",
     "web-vitals": "^2.1.0"
   },
+  "resolutions": {
+    "acorn": "8.0.1"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "5.8.0",
     "sass": "^1.58.3"
   }
 }
